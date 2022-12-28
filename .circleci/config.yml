@@ -94,5 +94,5 @@ workflows:
           type: approval
           requires:
             - build
-       -deploy-front
+      - deploy-front
           
