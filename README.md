@@ -2,6 +2,35 @@
 
 ## hosted app : http://maro-duck.s3-website-us-east-1.amazonaws.com/
 
+S3 Running :
+![s3](./screenShots/s3running.PNG)
+
+back-end hosted on AWS EB enviroment:
+![eb](./screenShots/eb.PNG)
+endpoint => http://udagram-api-dev.eba-pb2bev2e.us-east-1.elasticbeanstalk.com/
+
+database hosted on AWS RDS :
+![db](./screenShots/db.PNG)
+endpoint => database-2.cmfsz5xknzqh.us-east-1.rds.amazonaws.com
+
+Pipeline on circleCi:
+![circleci](./screenShots/circleci.PNG)
+
+![pipeline](./screenShots/succespipeline.PNG)
+
+circleci env variables :
+![env](./screenShots/env.PNG)
+
+Pipeline Diagram:
+
+![pipeline-diagrame](./documentaion/pipeline.PNG)
+
+ Infrastructure Description:
+![infrastructure-description](./documentaion/infra.PNG)
+
+
+
+
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---
