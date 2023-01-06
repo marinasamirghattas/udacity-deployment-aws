@@ -20,3 +20,13 @@ pipline diagram :
 ## Pipeline Architecture
 
 ![pipeline](./pipeline.PNG)
+
+
+#### GitHub
+Developer push code to the GitHub repo which  linked to the CircleCI platform and  triggers it
+
+#### CircleCI
+CircleCI reads cofigrations from `.circleci/config.yml` file which tells the service what has to be done. In the case of Udagram,
+there are 2 jobs (frontend & server) to be run by CircleCI.
+- **Frontend**: Runs the `build` script given in the `package.json` file. Then uses AWS CLI to upload assets to S3.
+- **Server**: Runs the `build` script, exports all environment variables from CircleCI configuration to a `.env` file. Then uses AWS CLI to upload archive to S3.
